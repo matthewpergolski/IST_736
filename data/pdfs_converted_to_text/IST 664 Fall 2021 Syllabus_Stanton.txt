@@ -1,0 +1,841 @@
+GRADUATE COURSE SYLLABUS 
+ Natural Language Processing, IST664 (CIS668) 
+Wednesdays – 9:30 AM to 12:15 PM 
+
+1 
+
+Instructor: Jeffrey Stanton 
+
+Office: 323E Hinds Hall 
+
+Office Hours: By Appointment 
+
+Phone: 315-443-2879 
+
+Email:  jmstanto@syr.edu 
+
+____________________________________________________________________________ 
+
+Catalog Description: 
+
+Linguistic and computational aspect of natural language processing technologies. Lectures, 
+readings, and projects in the computational techniques required to perform all levels of 
+linguistic processing of text. Additional work required of graduate students. 
+
+Important Note:   
+This section of IST664/CIS668 will offer a pilot test of a new textbook, Natural Language 
+Processing in Action (Manning Publications, 2019) by Kane, Howard, and Hapke. Please preview 
+this textbook before registering for this section. 
+
+Overview: 
+
+With the growth of the internet over the past 25 years, the world is awash with text written by 
+people. Text created by humans is commonly called “natural language” – this term 
+encompasses the broad diversity in the forms, styles, dialects, vocabularies, and even character 
+sets used. Natural language processing is therefore the art and science of using computers and 
+software to ingest, filter, organize, and analyze naturally occurring texts. This course is designed 
+to develop an understanding of how Natural Language Processing (NLP) techniques work to 
+process text for various practical and research applications. This goal will be achieved by: 
+•  Readings, lectures, and class discussions of the multiple levels of linguistic analysis 
+
+required for a computer to accept natural language input, transform it, interpret it, and 
+carry out a particular application; 
+
+•  Lab exercises and assignments in using computational techniques required to perform 
+
+these levels of natural language processing of text, and,  
+
+•  Examinations of real-world applications that incorporate substantive NLP modules. 
+
+We will examine and discuss the techniques of NLP at the various levels of linguistic analysis, 
+going through tokenization, word-level semantics, Part-Of-Speech tagging, syntax, semantics 
+and on up to the discourse level. The course will also include consideration of the use of NLP 
+techniques in practical applications. These will include Information Retrieval, Question 
+Answering, Sentiment Analysis, Summarization and Dialogue Systems. 
+
+Note that natural language processing shares concepts and techniques with the area of data 
+science known as text mining, but also has distinctive origins, emphases, concepts, and 
+
+  
+ 
+ 
+ 
+ 
+ 
+ 
+GRADUATE COURSE SYLLABUS 
+ Natural Language Processing, IST664 (CIS668) 
+Wednesdays – 9:30 AM to 12:15 PM 
+
+techniques. While we will sometimes make connections with text mining, but IST664 is not a 
+course in text mining. 
+
+2 
+
+Prerequisite / Co-requisite:  
+
+None. The course uses the programming language Python, primarily in the Jupyter Notebook 
+environment, but does not require any previous experience with programming languages. 
+
+Audience:  
+
+The course is intended primarily for M.S. students in Information Management, Computer 
+Science, Computational Journalism, or Linguistics, though it may be of interest and value to 
+students in other programs. 
+
+Credits: 
+
+3 credits 
+
+Learning Objectives: 
+
+At the end of the course the student will be able to 
+
+1.  Define and describe the various levels of linguistic analysis,  
+
+2.  Define and demonstrate the computational techniques used to understand text at each 
+
+linguistic level and what the challenges are for those techniques 
+
+3.  Process text through the various language levels using the resources of the Natural 
+
+Language Toolkit (NLTK)  
+
+4.  Learn essential uses of the programming language Python in the Jupyter notebook 
+
+environment 
+
+5.  Describe how NLP is used in many types of real-world applications. 
+
+Texts / Supplies: 
+
+As noted above, this section of the course is pilot testing a new textbook which can be 
+purchased online or at the bookstore in an eBook or paperback edition: 
+
+Lane, H., Howard, C., & Hapke, H. (2019). Natural Language Processing in Action. Shelter 
+
+Island, NY: Manning Publications. 
+
+The online books cited below will be used for reference, background, and code examples:  
+
+Jurafsky, D., & Martin, J. H. Speech and Language Processing., 3rd edition. Prentice-Hall. 
+
+Use the draft of the third edition at https://web.stanford.edu/~jurafsky/slp3/   
+
+  
+ 
+ 
+  
+ 
+ 
+GRADUATE COURSE SYLLABUS 
+ Natural Language Processing, IST664 (CIS668) 
+Wednesdays – 9:30 AM to 12:15 PM 
+
+3 
+
+Bird, S., Klein, E., & Loper, E. Natural language processing with Python, 
+
+http://www.nltk.org/book/ .  
+
+Additional supplementary readings will be available on Blackboard. 
+
+Course Requirements and Expectations: 
+
+•  Gutenberg Text Processing Assignments (50%) [learning objectives 1-4] 
+There will be five individual text processing assignments during weeks 2 – 10 of the course. 
+For each assignment, you will use as input one of the plain text books in the list at the end 
+of this syllabus. Each student will produce results using their own Project Gutenberg book 
+(i.e., no two students may use the same book). The tasks will be of increasing difficulty. 
+
+In-Class Midterm Exam (20%) [learning objectives 1, 2, and 4] 
+
+• 
+The class session for Week 7 will have a closed book, closed laptop, in-person, paper-based 
+midterm exam focusing on NLP concepts. The exam will contain some small code snippets 
+but will not require any coding as such. 
+
+•  NLP Tutorial Jupyter Notebook (25%) [learning objectives 1-5] 
+You will choose a specific NLP topic to explore, and present it in the form of a free-standing 
+tutorial as a publicly available Jupyter notebook. Your tutorial will consist of an extensive 
+amount of explanatory text interspersed with small snippets of working code. The best of 
+these tutorials will become part of a library of resources (with full attribution of your 
+authorship) for future Syracuse University students (and others as well). When you submit 
+your tutorial, please also submit the Turnitin test record of your tutorial’s content. You can 
+find instruction on how to do so from here: 
+https://researchguides.library.syr.edu/ld.php?content_id=40765513. 
+
+The evaluation of the tutorial includes three aspects: the tutorial content, the quality of the 
+code and the overall usability, usefulness, and originality.  
+
+a). The tutorial content needs to include these five sections: 
+
+1) Your name as the original author 
+2) A 250-word introduction to the tutorial, related important definitions, etc. 
+3) The code snippets interspersed with explanations 
+4) Conclusion, including suggestions for additional readings and resources 
+5) Bibliography including all code/text sources consulted in creating the tutorial 
+
+b). The code in your tutorial will be evaluated based on: 
+
+1) That the code actually works and does not throw any errors 
+2) Your familiarity and facility with the topics your code demonstrates; 
+3) The quality of the code including comments and stylistic considerations 
+
+  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+GRADUATE COURSE SYLLABUS 
+ Natural Language Processing, IST664 (CIS668) 
+Wednesdays – 9:30 AM to 12:15 PM 
+
+c). The usability, usefulness, and originality of your tutorial will be evaluated based on the 
+value of the topic and the explanations to other NLP learners, the overall quality of the 
+tutorial, including grammatically correct, conceptually correct, and understandable 
+explanations, and importantly, that it does not duplicate another available resource.  
+
+4 
+
+Below is a list of the areas and topics that you may be interested in exploring. Or, you may 
+propose another area of interest to you. Remember the importance of originality – your 
+own learning (and that of others who use your tutorial) will be greatly enhanced by 
+choosing a topic that does not already have a useable tutorial online.  
+
+•  Machine Translation Challenges Related to Specific Language Pairs 
+•  Detection of Particular Classes of Content (e.g., offensive speech, propaganda, 
+
+misinformation) 
+
+•  Content Moderation Issues and Challenges 
+•  Evaluation Metrics (existing or emerging methods for quantifying the performance 
+
+quality of an NLP technique) 
+
+•  Language Generation including Chatbots 
+•  Enabling resource production for “Low Resource” languages (e.g., bilingual 
+
+dictionary induction) 
+
+•  Natural Language Understanding 
+•  Automatic Summarization 
+•  Question/Answering Systems 
+• 
+•  New Approaches to Classic Problems in NLP: Polysemy, Sarcasm, Humor  
+
+Image to Text 
+
+•  Professionality (10%) 
+
+As a Syracuse University graduate, we expect you to uphold the highest standards of 
+professionality including honesty, integrity, respectful communications, lifelong 
+commitment to learning, supporting others, punctuality, and appreciation of the diverse 
+talents and capabilities of colleagues and coworkers. Active participation in the class is 
+expected, particularly with respect to answering questions that the professor addresses 
+to the class. The professor judges a student’s class participation based on the following 
+guidelines: 
+
+o  Arriving on time to class and prepared to do your best work when class begins 
+o  Attentiveness to the course content; reading the assigned readings for each 
+
+week prior to coming to class and be ready to discuss them in class.  
+
+o  Active participation in the small group discussions/activities in the class. This 
+means not only offering information, but also listening to others and working 
+constructively with them  
+
+o  Respectful communication with your peers and the instructor  
+
+Week 
+
+Assessments 
+
+Points 
+
+  
+ 
+ 
+  
+GRADUATE COURSE SYLLABUS 
+ Natural Language Processing, IST664 (CIS668) 
+Wednesdays – 9:30 AM to 12:15 PM 
+
+5 
+
+2 
+4 
+6 
+7  
+8 
+9 
+10 
+14 
+15 
+
+Text Processing Assignment 1 
+Text Processing Assignment 2 
+Text Processing Assignment 3 
+In Class Midterm Exam 
+Text Processing Assignment 4 
+Proposal for Jupyter Notebook Tutorial 
+Text Processing Assignment 5 
+Final Submission of Jupyter Notebook Tutorial 
+Professionality (determined by the instructor after the last 
+day of classes) 
+Total 
+
+10 
+10 
+10 
+20 
+10 
+5 
+10 
+20 
+10 
+
+105 
+
+Note: The assessment table intentionally contains 105 points rather than 100. This gives you a 
+buffer in case you get sick or must travel. There will be no extra credit assignments. There will 
+be no make-up exam. Late work will be penalized. 
+
+Week by Week: 
+
+Week 
+
+Topic 
+
+1 
+
+2 
+
+3 
+
+4 
+
+5 
+
+6 
+
+Course Overview and 
+Introduction to NLP  
+
+Levels of Language and Corpus 
+Linguistics, Tokenization, 
+Regular Expressions 
+
+Word Frequencies, Vector 
+Representations, N-gram 
+Models, Zipf’s Law 
+
+Semantic Analysis, Singular 
+Value Decomposition, PCA, 
+Morphology 
+
+Neural Networks for NLP 
+
+Word Vectors and Word 
+Senses 
+
+Reading and Due Dates 
+
+Required: Lane, Chapter 1 
+
+Optional: Preface,  
+Chapter 1: Language Processing and Python (section 1&2) 
+Required: Lane, Chapter 2 
+
+Optional: http://www.nltk.org/book/ch02.html 
+Optional: http://www.nltk.org/book/ch03.html  
+Optional: https://web.stanford.edu/~jurafsky/slp3/2.pdf   
+Required: Lane, Chapter 3 
+
+Optional:  http://www.nltk.org/book/ch04.html 
+Optional: http://www.nltk.org/book/ch05.html  
+Optional: https://web.stanford.edu/~jurafsky/slp3/3.pdf  
+Required: Lane, Chapter 4 
+
+Optional: http://www.nltk.org/book/ch06.html  
+Optional: https://web.stanford.edu/~jurafsky/slp3/4.pdf   
+Required: Lane, Chapter 5 
+
+Optional: https://web.stanford.edu/~jurafsky/slp3/7.pdf   
+Required: Lane, Chapter 6 
+
+Optional: https://web.stanford.edu/~jurafsky/slp3/18.pdf  
+
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GRADUATE COURSE SYLLABUS 
+ Natural Language Processing, IST664 (CIS668) 
+Wednesdays – 9:30 AM to 12:15 PM 
+
+7 
+
+Midterm Exam in Class 
+
+No reading or assignments due 
+
+6 
+
+8 
+
+9 
+
+10 
+
+11 
+
+12 
+
+13 
+
+14 
+
+15 
+
+Neural Networks and Word 
+Order, Semantic 
+Representations, Lexical 
+Semantics 
+
+Required: Lane, Chapter 7 
+
+Optional: http://www.nltk.org/book/ch08.html  
+Optional: https://web.stanford.edu/~jurafsky/slp3/9.pdf  
+
+Required: Lane, Chapter 8 
+
+Recurrent Networks (RNNs) and  
+Some Applications  
+
+Optional: http://www.nltk.org/book/ch09.html  
+Optional: https://web.stanford.edu/~jurafsky/slp3/11.pdf  
+
+LSTMs, Word Prediction, and 
+Simple Chat 
+
+Sequence to Sequence Tasks, 
+Encoder-Decoder Models 
+
+Named Entity Extraction and 
+Question Answering 
+
+Dialog Engines 
+
+Required: Lane, Chapter 9 
+
+Optional: http://www.nltk.org/book/ch10.html  
+Required: Lane, Chapter 10 
+
+Optional: http://www.nltk.org/book/ch11.html  
+Optional: https://web.stanford.edu/~jurafsky/slp3/C.pdf  
+Required, Lane, Chapter 11  
+
+Optional: http://www.nltk.org/book/ch07.html  
+Optional: https://web.stanford.edu/~jurafsky/slp3/17.pdf 
+Optional: https://web.stanford.edu/~jurafsky/slp3/23.pdf  
+ Required: Lane, Chapter 12  
+
+Optional: https://web.stanford.edu/~jurafsky/slp3/24.pdf  
+Required: Lane, Chapter 13 
+
+Summary and Future Directions 
+
+No class 
+
+Optional: http://www.nltk.org/book/ch12.html  
+Jupyter Notebook Tutorial Due 
+https://www.gutenberg.org/ebooks/19942.txt.utf-8 
+
+Grading: 
+
+Grades are assigned based on the quality of the work. The instructor’s professional judgments 
+of all submitted work are final. Work submitted after the deadlines shown in Blackboard will 
+only be accepted at the discretion of the instructor and will be subject to a late penalty. Work 
+should not be submitted to the instructor by email. If you upload the wrong file to Blackboard, 
+ask your instructor to reset the attempt. Erroneous uploads are not a valid excuse for late 
+submission of work, so plan ahead and don’t wait to submit until the last moment. Here’s a 
+grading table to translate points to final letter grade: 
+
+A = 95-100; A- = 90-94.99; B+ = 85-89.99; B = 80-84.99; B- = 75-79.99 
+
+  
+ 
+                             
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GRADUATE COURSE SYLLABUS 
+ Natural Language Processing, IST664 (CIS668) 
+Wednesdays – 9:30 AM to 12:15 PM 
+
+C+ = 70-74.99; C = 65-69.99; C- = 60-64.99; >60 = F 
+
+7 
+
+University Attendance Policy 
+
+Attendance in classes is expected in all courses at Syracuse University. Students are expected to 
+arrive on campus in time to attend the first meeting of all classes for which they are registered. 
+Students  who  do  not  attend  classes  starting  with  the  first  scheduled  meeting  may  be 
+academically withdrawn as not making progress toward degree by failure to attend. Instructors 
+set course-specific policies for absences from scheduled class meetings in their syllabi.  
+
+It is a federal requirement that students who do not attend or cease to attend a class to be 
+reported at the time of determination by the faculty. Faculty should use “ESPR” and “MSPR” in 
+Orange Success to alert the Office of the Registrar and the Office of Financial Aid. A grade of NA 
+is posted to any student for whom the Never Attended flag is raised in Orange SUccess. More 
+information regarding Orange SUccess can be found here, at: 
+http://orangesuccess.syr.edu/getting-started-2/  
+Students should also review the University’s religious observance policy and make the required 
+arrangements at the beginning of each semester 
+
+Specific Course Policies 
+
+•  Many of the work products for this course are in the form of Jupyter notebooks. We will 
+generally work on these in Google’s “colab” environment. When you submit a Jupyter 
+notebook assignment you should download the ipynb file from colab and submit it. Note 
+the importance of originality and citation: Any work that was produced by others (such 
+as code fragments that appear online) should have an accompanying source citation. 
+Anything you submit that does not have a citation will be attributed to you – which 
+means that you will be held responsible for plagiarism if the work you submit as your 
+own is not original. 
+
+•  There will be NO make-up exam for the midterm. You should plan your semester 
+
+carefully to avoid being absent for the Week 7 class. 
+
+•  A student who misses classes will lose professionalism points. For each absent class, the 
+
+• 
+
+student will lose five points. 
+Integrity is a crucial element of being a data scientist or information professional. You 
+may consult the Internet for code examples to help you with your homework or 
+projects. You MUST give credit whenever you reuse someone else’s code. A code block 
+that contains someone else’s code should contain as comment that names the author of 
+the code and another comment containing the URL where the code was found.  
+
+Syracuse University Policies:  
+
+  
+ 
+ 
+ 
+ 
+ 
+GRADUATE COURSE SYLLABUS 
+ Natural Language Processing, IST664 (CIS668) 
+Wednesdays – 9:30 AM to 12:15 PM 
+
+Syracuse University has a variety of other policies designed to guarantee that students live and 
+study in a community respectful of their needs and those of fellow students. Some of the most 
+important of these concerns:  
+
+8 
+
+Diversity and Disability (ensuring that students are aware of their rights and responsibilities 
+in a diverse, inclusive, accessible, bias-free campus community) can be found here, at 
+https://www.syracuse.edu/life/accessibilitydiversity/ 
+
+Religious Observances Notification and Policy (steps to follow to request 
+accommodations for the observance of religious holidays) can be found here, at: 
+http://supolicies.syr.edu/studs/religious_observance.htm 
+
+Orange SUccess (tools to access a variety of SU resources, including ways to communicate 
+with advisors and faculty members) can be found here, at:  
+http://orangesuccess.syr.edu/getting-started-2/ 
+
+Disability-Related Accommodations: 
+
+Syracuse  University  values  diversity  and  inclusion;  we  are  committed  to  a  climate  of  mutual 
+respect and full participation. There may be aspects of the instruction or design of this course 
+that result in barriers to your inclusion and full participation in this course. I invite any student to 
+meet with me to discuss strategies and/or accommodations (academic adjustments) that may be 
+essential to your success and to collaborate with the Office of Disability Services (ODS) in this 
+process. 
+
+If you would like to discuss disability-accommodations or register with ODS, please visit their 
+website at http://disabilityservices.syr.edu./ Please call (315) 443-4498 or email 
+disabilityservices@syr.edu for more detailed information.  
+
+ODS is responsible for coordinating disability-related academic accommodations and will work 
+with the student to develop an access plan. Since academic accommodations may require early 
+planning and generally are not provided retroactively, please contact ODS as soon as possible to 
+begin this process. 
+
+Academic Integrity Policy: 
+
+Syracuse University’s Academic Integrity Policy reflects the high value that we, as a university 
+community, place on honesty in academic work. The policy defines our expectations for 
+academic honesty and holds students accountable for the integrity of all work they submit. 
+Students should understand that it is their responsibility to learn about course-specific 
+expectations, as well as about university-wide academic integrity expectations. The policy 
+governs appropriate citation and use of sources, the integrity of work submitted in exams and 
+assignments, and the veracity of signatures on attendance sheets and other verification of 
+
+  
+ 
+ 
+ 
+ 
+ 
+ 
+GRADUATE COURSE SYLLABUS 
+ Natural Language Processing, IST664 (CIS668) 
+Wednesdays – 9:30 AM to 12:15 PM 
+
+participation in class activities. The policy also prohibits students from submitting the same 
+work in more than one class without receiving written authorization in advance from both 
+instructors. Under the policy, students found in violation are subject to grade sanctions 
+determined by the course instructor and non-grade sanctions determined by the School or 
+College where the course is offered as described in the Violation and Sanction Classification 
+Rubric. SU students are required to read an online summary of the University’s academic 
+integrity expectations and provide an electronic signature agreeing to abide by them twice a 
+year during pre-term check-in on MySlice. 
+
+9 
+
+Note: In this course, all group members are expected to participate actively and make sure that 
+no plagiarism or other violations of the Academic Integrity occurs in the group reports. 
+If I suspect any type of plagiarism or cheating, I will consult with the academic integrity panel. 
+
+Educational Use of Student Work 
+Student work prepared for University courses in any media may be used for educational 
+purposes, if the course syllabus makes clear that such use may occur. You grant permission to 
+have your work used in this manner by registering for, and by continuing to be enrolled in, 
+courses where such use of student work is announced in the course syllabus.  
+
+I intend to use academic work that you complete this semester for educational purposes in this 
+course during this semester. Your registration and continued enrollment constitute your 
+permission. 
+
+I intend to use academic work that you complete this semester in subsequent semesters for 
+educational purposes. Before using your work for that purpose, I will either get your written 
+permission or render the work anonymous by removing all your personal identification. 
+
+As a generally accepted practice, honors theses, graduate theses, graduate research projects, 
+dissertations, or other capstone projects submitted in partial fulfillment of degree requirements 
+are placed in the library, University Archives, or department for public reference. 
+
+Discrimination or Harassment  
+
+The University does not discriminate and prohibits harassment or discrimination related to any 
+protected category including creed, ethnicity, citizenship, sexual orientation, national origin, 
+sex, gender, pregnancy, disability, marital status, age, race, color, veteran status, military 
+status, religion, sexual orientation, domestic violence status, genetic information, gender 
+identity, gender expression or perceived gender. 
+
+Any complaint of discrimination or harassment related to any of these protected bases should 
+be reported to Sheila Johnson-Willis, the University’s Chief Equal Opportunity & Title IX Officer. 
+She is responsible for coordinating compliance efforts under various laws including Titles VI, VII, 
+
+  
+ 
+ 
+ 
+GRADUATE COURSE SYLLABUS 
+ Natural Language Processing, IST664 (CIS668) 
+Wednesdays – 9:30 AM to 12:15 PM 
+
+10 
+
+IX and Section 504 of the Rehabilitation Act. She can be contacted at Equal Opportunity, 
+Inclusion, and Resolution Services, 005 Steele Hall, Syracuse University, Syracuse, NY 13244-
+1120; by email: titleix@syr.edu; or by telephone: 315-443-0211. 
+
+Federal and state law, and University policy prohibit discrimination and harassment based on 
+sex or gender (including sexual harassment, sexual assault, domestic/dating violence, stalking, 
+sexual exploitation, and retaliation).  
+
+If a student has been harassed or assaulted, they can obtain confidential counseling support, 
+24-hours a day, 7 days a week, from the Sexual and Relationship Violence Response Team at 
+the Counseling Center (315-443-4715, 200 Walnut Place, Syracuse, New York 13244-5040). 
+Incidents of sexual violence or harassment can be reported non-confidentially to the 
+University’s Title IX Officer (Sheila Johnson Willis, 315-443-0211, titleix@syr.edu, 005 Steele 
+Hall). Reports to law enforcement can be made to the University’s Department of Public Safety 
+(315-443-2224, 005 Sims Hall), the Syracuse Police Department (511 South State Street, 
+Syracuse, New York, 911 in case of emergency or 315-435-3016 to speak with the Abused 
+Persons Unit), or the State Police (844-845-7269).  
+
+I will seek to keep information you share with me private to the greatest extent possible, but as 
+a professor I have mandatory reporting responsibilities to share information regarding sexual 
+misconduct, harassment, and crimes I learn about to help make our campus a safer place for all. 
+
+Course evaluations:  
+There will be an end of course evaluation for you to complete this term. This evaluation will be 
+conducted online and is entirely anonymous. You will receive an official notification in your 
+email account with the evaluation website link and your passcode. Please take the time and fill 
+out this evaluation as your feedback and support of this assessment effort is very much 
+appreciated. The school carefully reviews ratings and comments that you submit, and these 
+factor into decisions about course, program and instructor development. 
+
+Use of Blackboard: 
+This course involves the use of Syracuse University’s Blackboard system as an online tool. The 
+environment is composed of a number of elements that will help you be successful in both your 
+current coursework and your lifelong learning opportunities. To access Blackboard, 
+[http://blackboard.syr.edu] use your Syracuse University NetID & Password. This specific course 
+will appear in your course list. 
+
+To search for answers to your Blackboard questions, visit the Answers self-help knowledge [ 
+https://answers.syr.edu/display/blackboard01/Blackboard ]. If you have problems logging in or 
+need assistance with Blackboard, contact the ITS Service Center at: help@syr.edu or 
+315.443.2677. The Syracuse University Blackboard support team will assist you. 
+
+Text Processing Books 
+
+  
+ 
+ 
+GRADUATE COURSE SYLLABUS 
+ Natural Language Processing, IST664 (CIS668) 
+Wednesdays – 9:30 AM to 12:15 PM 
+
+11 
+
+During the initial class session, you will choose or be assigned to one of the following books. 
+You may download a copy of the book to use locally on your computer but generally speaking 
+your code should refer to your book by its URL as shown in the table or in the Project 
+Gutenberg website. Each student will use their particular book for the five text processing 
+assignments. 
+
+Frankenstein; Or, The Modern 
+Prometheus by Mary Wollstonecraft 
+Shelley 
+Pride and Prejudice by Jane Austen 
+The Great Gatsby by F. Scott Fitzgerald 
+
+Alice's Adventures in Wonderland by 
+Lewis Carroll 
+A Tale of Two Cities by Charles Dickens 
+The Importance of Being Earnest: A 
+Trivial Comedy for Serious People by 
+Oscar Wilde 
+Metamorphosis by Franz Kafka 
+The Picture of Dorian Gray by Oscar 
+Wilde 
+The Adventures of Sherlock Holmes by 
+Arthur Conan Doyle 
+Adventures of Huckleberry Finn by 
+Mark Twain 
+The Scarlet Letter by Nathaniel 
+Hawthorne 
+The Strange Case of Dr. Jekyll and Mr. 
+Hyde by Robert Louis Stevenson 
+Heart of Darkness by Joseph Conrad 
+A Christmas Carol in Prose; Being a 
+Ghost Story of Christmas by Charles 
+Dickens 
+Dracula by Bram Stoker 
+Anthem by Ayn Rand 
+The Hound of the Baskervilles by 
+Arthur Conan Doyle 
+The Adventures of Tom Sawyer, 
+Complete by Mark Twain 
+Walden, and On The Duty Of Civil 
+Disobedience by Henry David Thoreau 
+
+https://www.gutenberg.org/files/84/84-0.txt  
+
+https://www.gutenberg.org/files/1342/1342-0.txt  
+https://www.gutenberg.org/files/64317/64317-
+0.txt  
+https://www.gutenberg.org/files/11/11-0.txt  
+
+https://www.gutenberg.org/files/98/98-0.txt  
+https://www.gutenberg.org/files/844/844-0.txt  
+
+https://www.gutenberg.org/files/5200/5200-0.txt  
+https://www.gutenberg.org/files/174/174-0.txt  
+
+https://www.gutenberg.org/files/1661/1661-0.txt  
+
+https://www.gutenberg.org/files/76/76-0.txt  
+
+https://www.gutenberg.org/files/25344/25344-
+0.txt  
+https://www.gutenberg.org/files/43/43-0.txt  
+
+https://www.gutenberg.org/files/219/219-0.txt  
+https://www.gutenberg.org/files/46/46-0.txt  
+
+https://www.gutenberg.org/files/345/345-0.txt  
+https://www.gutenberg.org/files/1250/1250-0.txt  
+https://www.gutenberg.org/files/2852/2852-0.txt  
+
+https://www.gutenberg.org/files/74/74-0.txt  
+
+https://www.gutenberg.org/files/205/205-0.txt  
+
+  
+ 
+ 
+GRADUATE COURSE SYLLABUS 
+ Natural Language Processing, IST664 (CIS668) 
+Wednesdays – 9:30 AM to 12:15 PM 
+
+Dubliners by James Joyce 
+Peter Pan by J. M. Barrie 
+Treasure Island by Robert Louis 
+Stevenson 
+The Wonderful Wizard of Oz by L. Frank 
+Baum 
+Candide by Voltaire 
+
+https://www.gutenberg.org/files/2814/2814-0.txt  
+https://www.gutenberg.org/files/16/16-0.txt  
+https://www.gutenberg.org/files/120/120-0.txt  
+
+12 
+
+https://www.gutenberg.org/files/55/55-0.txt  
+
+https://www.gutenberg.org/ebooks/19942.txt.utf-
+8  
+
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

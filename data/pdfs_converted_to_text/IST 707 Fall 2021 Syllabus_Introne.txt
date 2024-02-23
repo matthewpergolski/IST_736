@@ -1,0 +1,467 @@
+COURSE SYLLABUS 
+IST 407/707 Data Analytics 
+
+1 
+
+Instructor:  Josh Introne 
+Office:  Hinds 236 
+Email: jeintron@syr.edu 
+Office Hours: By appointment 
+______________________________________________________________________  
+
+Prerequisite: IST 387/687. Exceptions maybe given to students who have acquired skills 
+equivalent to what is taught in IST 387/687 
+
+Audience: Undergraduate (407) & Graduate Students (707) 
+
+Description: Introduction to data analytics techniques, familiarity with particular real- 
+world applications, challenges involved in these applications, and future directions of the 
+field. Hands-on experience with open-source software packages. 
+
+Additional Course Description: 
+This course will introduce popular data analytics methods for extracting knowledge 
+from data. The principles and theories of data analytics methods will be discussed and 
+will be related to the issues in applying data analytics to problems. Students will also 
+acquire hands-on experience using state-of-the-art software to develop data analytics 
+solutions to scientific and business problems. The focus of this course is in 
+understanding of data and how to formulate data analytics tasks in order to solve 
+problems using the data. 
+
+The topics of the course will include the key tasks of data analytics, including data 
+preparation, concept description, association rule analytics, classification, clustering, 
+evaluation and analysis. Through the exploration of the concepts and techniques of data 
+analytics and practical exercises, students will develop skills that can be applied to 
+business, science or other organizational problems. 
+
+The format of the class meetings will be a combined lecture and lab format, with 
+lectures and class discussions to cover material and lab time to investigate small 
+examples for the topic of the week. There will be weekly readings based on the 
+textbook and on other materials, which will be posted on-line. 
+
+Credits: 3 
+
+Learning Objectives: 
+After taking this course, the students will be able to: 
+
+•  Document, analyze, and translate data analytics needs into technical designs 
+
+and solutions. 
+
+•  Apply data analytics concepts, algorithms, and evaluation methods to real-
+
+world problems. 
+
+•  Employ data storytelling and dive into the data, find useful patterns, and 
+
+articulate what patterns have been found, how they are found, and why they are 
+valuable and trustworthy. 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+COURSE SYLLABUS 
+IST 407/707 Data 
+Analytics 
+
+4 
+
+Bibliography/ Texts / Supplies – Optional: 
+
+•  Pang-Ning Tan, Michael Steinbach, and Vipin Kumar (2005) Introduction to Data 
+
+Analytics. (Free sample chapters available at authors’ website http://www- 
+users.cs.umn.edu/~kumar/dmbook/index.php) 
+
+•  Brett Lantz (2015) Machine Learning with R (second edition). 
+
+Note to students: Given the diversified background of data science students, one 
+textbook might not fit everyone. If you like rigorous algorithm presentation, I would 
+recommend Mitchell's classic book on Machine Learning. If you like more lay-person 
+explanation of machine learning, see if you like Lantz's book better. 
+The current required textbook is a balance between the two views. I will put a copy of 
+this book to the Bird Library reserve room. You can check it out and read for up to two 
+hours every time. 
+
+Tips for success in this class: Curiosity, critical thinking, math, and programming. 
+•  Curiosity: Curious about the data, pay attention to the data details. Don't treat a data 
+set as a blackbox. Don't treat an algorithm as a blackbox. Try see through them. 
+
+•  Critical thinking: Data analytics is essentially research. You will learn and 
+
+practice methods to discover patterns, and also evaluate whether and why the 
+discovered patterns are true and useful. 
+
+•  Math: You will need some math knowledge, such as algebra and probability, to 
+
+understand how the data analytics algorithms work. 
+
+Software 
+
+•  R and Weka 
+
+Note to students: We will mainly use R but keep Weka as a backup tool for students 
+who do not have enough R skills. 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Typical Course Schedule: 
+
+COURSE SYLLABUS 
+IST 407/707 Data 
+Analytics 
+
+Week 
+
+Topic 
+
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+
+9 
+
+10 
+11 
+12 
+
+Introduction to Data Analytics 
+Data Exploration 
+Association Rules 
+Clustering 
+Classification: decision tree 
+Classification: model evaluation 
+Classification: naïve Bayes 
+Classification algorithm: kNN, SVMs, random 
+forest 
+Artificial Neural Networks 
+
+Text Mining and NLP 
+Individual Portfolio Working Session 
+Individual Portfolio Presentation 
+
+13  Group Project: Working Session  
+14  Group Project: Final Presentation 
+
+Two days after the presentation 
+
+Textbook 
+Readings 
+Ch.1 
+Ch. 2-3 
+Ch. 6.1-6.3 
+Ch. 8.1-8.3 
+Ch. 4.1-4.3 
+Ch. 4.4-4.6 
+Ch. 5.3 
+Ch. 5.2, 5.5 
+
+5 
+
+Submission 
+items 
+HW1 
+HW2 
+HW3 
+HW4 
+  HW5 
+
+HW6 
+HW7 
+
+HW8 
+
+HW9 
+
+Portfolio 
+Report Due 
+
+Group Project 
+Report Due 
+
+Requirements: 
+Your final grade is determined by your performance on the items in the table below. An 
+overview of each item is provided in the remainder of this section. 
+
+Assessment Item 
+Individual Portfolio 
+Homework assignments 
+Group Project  
+Total 
+
+Weight % 
+30 
+50 
+20 
+100 
+
+• 
+
+Individual Project Portfolio: The objective of the Individual Portfolio to 
+research the concepts introduced in class each week, and to report on how 
+they apply in the real world.   
+
+•  Homework assignments: Assignments must be professionally prepared and 
+submitted electronically to the LMS. All assignments should be submitted in 
+Word files named as “HW_Num_Lastname_Firstname.doc(x)”, e.g. 
+“HW_1_Smith_John.doc”. No PDF please. 
+
+•  Group Project: The objective of the project is to work as a team to apply 
+
+concepts taught in this class to solve a data analytics problem.  
+
+Grading: 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+COURSE SYLLABUS 
+IST 407/707 Data 
+Analytics 
+
+6 
+
+For this class, an "A" would mean the student has the capability to independently solve 
+a simple data analytics task. Below is a common formula for number-to-letter grade  
+conversion. 
+
+Grade 
+
+Points 
+
+A 
+A- 
+
+93-100 
+90-92 
+
+Grade 
+B+ 
+B 
+B- 
+
+Points 
+87-89 
+83-86 
+80-82 
+
+Grade 
+C+ 
+C 
+C- 
+
+Points 
+77-79 
+73-76 
+70-72 
+
+Grades of D and D- may not be assigned to graduate students. 
+
+Grade 
+F 
+
+Points 
+0-69 
+
+Course Specific Policies on attendance, late work, make up work, examinations if 
+outside normal class time, etc.: 
+
+•  Registration: Students must register prior to the first class or may be restricted 
+from registering. If you are registered but not present at the first class, you run 
+the risk of being administratively deregistered from this course so that your seat 
+can be given to a student on the wait list. 
+
+•  Late Policy for Assignments: To ensure fast return, all assignments should be 
+
+submitted on time. One-hour grace period is given to accommodate any incidents 
+around deadline. Late policy will be enforced starting from the second hour. You 
+are free to discuss the assignments with your classmates, but you must write up 
+the report all by yourself. Plagiarism cases will be reported to the university. 
+•  Communications: This course will use Blackboard as the main communication 
+platforms for class exercises and notifications. Students are required to check 
+their Blackboard accounts on a regular basis. 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+COURSE SYLLABUS 
+IST 407/707 Data 
+Analytics 
+
+7 
+
+Educational Use of Student Work 
+
+I intend to use academic work that you complete this semester in subsequent semesters 
+for educational purposes. Before using your work for that purpose, I will either get your 
+written permission or render the work anonymous by removing all personal identification. 
+
+University Attendance Policy 
+Attendance  in  classes  is expected  in all  courses  at  Syracuse University.  Students are expected  to 
+arrive  on  campus  in  time  to  attend  the  first  meeting  of  all  classes  for  which  they  are  registered.  
+Students who do not attend classes starting with the first scheduled meeting may be academically 
+withdrawn as not making progress toward degree by failure to attend. Instructors set course-specific 
+policies for absences from scheduled class meetings in their syllabi.  
+
+It is a federal requirement that students who do not attend or cease to attend a class to be reported 
+at the time of determination by the faculty. Faculty should use “ESPR” and “MSPR” in Orange 
+Success to alert the Office of the Registrar and the Office of Financial Aid. A grade of NA is posted to 
+any student for whom the Never Attended flag is raised in Orange SUccess. More information 
+regarding Orange SUccess can be found here, at: http://orangesuccess.syr.edu/getting-started-2/  
+Students should also review the University’s religious observance policy and make the required 
+arrangements at the beginning of each semester 
+
+Syracuse University Policies:  
+Syracuse University has a variety of other policies designed to guarantee that students live and 
+study in a community respectful of their needs and those of fellow students. Some of the most 
+important of these concerns:  
+
+Diversity and Disability (ensuring that students are aware of their rights and responsibilities in a 
+diverse, inclusive, accessible, bias-free campus community) can be found here, at 
+https://www.syracuse.edu/life/accessibilitydiversity/ 
+
+Religious Observances Notification and Policy (steps to follow to request accommodations for the 
+observance of religious holidays) can be found here, at: 
+http://supolicies.syr.edu/studs/religious_observance.htm 
+
+Orange SUccess (tools to access a variety of SU resources, including ways to communicate with 
+advisors and faculty members) can be found here, at:  
+http://orangesuccess.syr.edu/getting-started-2/ 
+
+Disability-Related Accommodations: 
+
+Syracuse University values diversity and inclusion; we are committed to a climate of mutual respect 
+and full participation. There may be aspects of the instruction or design of this course that result in 
+barriers to your inclusion and full participation in this course. I invite any student to meet with me to 
+discuss  strategies  and/or  accommodations  (academic  adjustments)  that  may  be  essential  to  your 
+success and to collaborate with the Office of Disability Services (ODS) in this process. 
+
+If you would like to discuss disability-accommodations or register with ODS, please visit their website 
+at http://disabilityservices.syr.edu./ Please call (315) 443-4498 or email disabilityservices@syr.edu 
+for more detailed information.  
+
+ODS is responsible for coordinating disability-related academic accommodations and will work with 
+the student to develop an access plan. Since academic accommodations may require early planning 
+and generally are not provided retroactively, please contact ODS as soon as possible to begin this 
+process. 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+COURSE SYLLABUS 
+IST 407/707 Data 
+Analytics 
+
+8 
+
+Academic Integrity Policy: 
+Syracuse University’s Academic Integrity Policy reflects the high value that we, as a university 
+community, place on honesty in academic work. The policy defines our expectations for academic 
+honesty and holds students accountable for the integrity of all work they submit. Students should 
+understand that it is their responsibility to learn about course-specific expectations, as well as about 
+university-wide academic integrity expectations. The policy governs appropriate citation and use of 
+sources, the integrity of work submitted in exams and assignments, and the veracity of signatures on 
+attendance sheets and other verification of participation in class activities. The policy also prohibits 
+students from submitting the same work in more than one class without receiving written 
+authorization in advance from both instructors. Under the policy, students found in violation are 
+subject to grade sanctions determined by the course instructor and non-grade sanctions determined 
+by the School or College where the course is offered as described in the Violation and Sanction 
+Classification Rubric. SU students are required to read an online summary of the University’s 
+academic integrity expectations and provide an electronic signature agreeing to abide by them twice 
+a year during pre-term check-in on MySlice. 
+
+Course evaluations:   
+
+There will be an end of course evaluation for you to complete this term. This evaluation will be 
+conducted online and is entirely anonymous. You will receive an official notice in your email account 
+with the evaluation website link and your passcode. Please take the time and fill out this evaluation 
+as your feedback and support of this assessment effort is very much appreciated.  The school 
+carefully reviews ratings and comments that you submit, and these factor into decisions about 
+course, program and instructor development. 
+
+Use of Blackboard: 
+This course involves the use of Syracuse University’s Blackboard system as an online tool. The 
+environment is composed of a number of elements that will help you be successful in both your 
+current coursework and your lifelong learning opportunities. To access Blackboard, 
+[http://blackboard.syr.edu] use your Syracuse University NetID & Password.  This specific course will 
+appear in your course list. 
+
+To search for answers to your Blackboard questions, visit the Answers self-help knowledge [ 
+https://answers.syr.edu/display/blackboard01/Blackboard ].  If you have problems logging in or need 
+assistance with Blackboard, contact the ITS Service Center at: help@syr.edu or 315.443.2677.  The 
+Syracuse University Blackboard support team will assist you. 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

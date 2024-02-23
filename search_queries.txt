@@ -1,0 +1,6 @@
+jupyter
+python
+machine learning
+artificial intelligence
+nlp
+sql
