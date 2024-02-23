@@ -20,7 +20,7 @@ Access the Streamlit app here: [https://ist736-syracuse.streamlit.app](https://i
 
 ![Streamlit Search Engine](./streamlit_search_engine.png)
 ![Streamlit TI-IDF Matrix](./streamlit_tfidf_matrix.png)
-![Streamlit Topic Model](./streamlit_topic_modelpng)
+![Streamlit Topic Model](./streamlit_topic_model.png)
 
 ## Getting Started
 
