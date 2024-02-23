@@ -4,3 +4,4 @@ CleanShot 2023-11-11 at 15.13.31@2x.png
 app.out
 app/
 scripts/app.sh
+scripts/__pycache__
