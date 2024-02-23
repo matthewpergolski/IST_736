@@ -16,6 +16,12 @@ To provide a user-friendly and interactive experience, a Streamlit application h
 
 Access the Streamlit app here: [https://ist736-syracuse.streamlit.app](https://ist736-syracuse.streamlit.app)
 
+## Streamlit Application Images
+
+![Streamlit Search Engine](./streamlit_search_engine.png)
+![Streamlit TI-IDF Matrix](./streamlit_tfidf_matrix.png)
+![Streamlit Topic Model](./streamlit_topic_modelpng)
+
 ## Getting Started
 
 To run this project locally, ensure you have Python and Streamlit installed. Clone this repository, navigate to the project directory, and execute the Streamlit application:
