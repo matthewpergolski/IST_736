@@ -21,6 +21,6 @@ Access the Streamlit app here: [https://ist736-syracuse.streamlit.app](https://i
 To run this project locally, ensure you have Python and Streamlit installed. Clone this repository, navigate to the project directory, and execute the Streamlit application:
 
 ```bash
-git clone [<repository-url>](https://github.com/matthewpergolski/IST_736.git)https://github.com/matthewpergolski/IST_736.git
+git clone -b master https://github.com/matthewpergolski/IST_736.git
 cd IST_736
 streamlit run scripts/app.py
