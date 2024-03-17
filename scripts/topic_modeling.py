@@ -17,6 +17,7 @@ from config import text_directory
 nltk.download('stopwords', quiet=True)
 nltk.download('wordnet', quiet=True)
 
+# Removes stopwords, lemmatizes, and cleans document text
 def preprocess(document):
     stop_words = set(stopwords.words('english'))
     lemmatizer = WordNetLemmatizer()
@@ -24,6 +25,7 @@ def preprocess(document):
     tokens = [lemmatizer.lemmatize(token) for token in tokens if token not in stop_words and token.isalpha() and len(token) > 3]
     return tokens
 
+# Loads and preprocesses all documents from a given directory
 def load_documents(directory):
     documents = []
     for filename in os.listdir(directory):
@@ -32,15 +34,18 @@ def load_documents(directory):
             documents.append(preprocess(file.read()))
     return documents
 
+# Creates a dictionary and corpus from preprocessed documents for LDA analysis
 def create_dictionary_corpus(documents):
     dictionary = corpora.Dictionary(documents)
     corpus = [dictionary.doc2bow(text) for text in documents]
     return dictionary, corpus
 
+# Builds and returns an LDA model from the corpus and dictionary
 def apply_lda_model(corpus, dictionary, num_topics=4):
     lda_model = gensim.models.LdaMulticore(corpus, num_topics=num_topics, id2word=dictionary, passes=10, workers=2)
     return lda_model
 
+# Extracts and formats topics and their respective words and weights from the LDA model
 def extract_topics(lda_model):
     def parse_topic_words(topic_str):
         word_weight_pairs = topic_str.split(' + ')
@@ -55,10 +60,12 @@ def extract_topics(lda_model):
     topic_df = pd.DataFrame(topic_data, columns=['Topic', 'Word', 'Weight'])
     return topic_df.sort_values(by=['Topic', 'Weight'], ascending=[True, False])
 
+# Calculates and returns the coherence score of the LDA model
 def calculate_coherence(lda_model, documents, dictionary):
     coherence_model_lda = CoherenceModel(model=lda_model, texts=documents, dictionary=dictionary, coherence='c_v')
     return coherence_model_lda.get_coherence()
 
+# Prepares data for visualization of the LDA model
 def prepare_visualization(lda_model, corpus, dictionary):
     return gensimvis.prepare(lda_model, corpus, dictionary)
 
