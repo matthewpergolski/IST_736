@@ -11,7 +11,24 @@ st.set_page_config(layout="wide")
 
 # Navigation
 st.sidebar.title("Navigation")
-choice = st.sidebar.radio("Go to", ("TF-IDF Matrix", "Search Engine", "Topic Modeling"))
+choice = st.sidebar.radio("Go to", ("Overview", "TF-IDF Matrix", "Search Engine", "Topic Modeling"))
+
+################################## Overview Page ##################################
+if choice == "Overview":
+    st.title("Welcome to DataScience@Syracuse 🎓")
+    
+    st.write("""
+    ## Overview 🌟
+    
+    This application is designed to assist prospective students interested in the Master of Science in Applied Data Science (MSADS) program at Syracuse University. Here's what you can do with the app:
+    
+    - **Explore the Curriculum:** Navigate through the program's curriculum to understand the courses offered.
+    - **Search Functionality:** Use the app's search engine to find courses that match your interests, such as those involving Python programming.
+    - **Discover Key Topics:** Utilize topic modeling to uncover the main topics covered across different courses.
+    - **Analytical Insights:** Access a TF-IDF (Term Frequency-Inverse Document Frequency) matrix to dive deep into the textual analysis of the curriculum content.
+    
+    We hope this app makes it easier for you to explore what our MSADS program has to offer. Dive in and discover courses that align with your interests and career goals!
+    """)
 
 ################################## TF-IDF Matrix Page ##################################
 

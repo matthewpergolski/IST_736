@@ -18,6 +18,7 @@ Access the Streamlit app here: [https://ist736-syracuse.streamlit.app](https://i
 
 ## Streamlit Application Images
 
+![Streamlit Landing Page](./landing_page.png)
 ![Streamlit Search Engine](./streamlit_search_engine.png)
 ![Streamlit TI-IDF Matrix](./streamlit_tfidf_matrix.png)
 ![Streamlit Topic Model](./streamlit_topic_model.png)
